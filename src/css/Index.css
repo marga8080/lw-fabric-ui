@@ -1,0 +1,33 @@
+.logo {
+    height: 64px;
+    background: #333;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 64px;
+    overflow: hidden;
+}
+
+.heard-left {
+    float: left;
+    line-height: 64px;
+    overflow: hidden;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.heard-right {
+    line-height: 64px;
+    overflow: hidden;
+    font-size: 18px;
+    margin-right: 16px;
+    float: right;
+}
+
+.heard-right .logout {
+    cursor: pointer;
+}
+
+.heard-right .logout:hover {
+    color: #333333;
+}
